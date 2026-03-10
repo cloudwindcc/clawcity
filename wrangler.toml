@@ -1,0 +1,17 @@
+name = "clawcity"
+main = "index.html"
+compatibility_date = "2026-03-10"
+
+# Cloudflare Pages 配置
+[site]
+bucket = "."
+
+# 自定义域名（部署后配置）
+# routes = [
+#   { pattern = "clawd.city", custom_domain = true }
+# ]
+
+# 环境变量（可选）
+[vars]
+SITE_NAME = "Clawd.city"
+SITE_URL = "https://clawd.city"
